@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorModelEventAggregatorPattern", "DoorModelEventAggregatorPattern.csproj", "{A86F328E-812C-4DDC-BC5C-5935BB3CC756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeiss.Timers", "..\Zeiss.Timers\Zeiss.Timers.csproj", "{B0D7BE6D-D489-4B5B-AEDF-F2D1E8E2980B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeiss.ProgramLogger", "..\Zeiss.ProgramLogger\Zeiss.ProgramLogger\Zeiss.ProgramLogger.csproj", "{5F4DD6BE-2769-4D70-B406-6CB123E68972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A86F328E-812C-4DDC-BC5C-5935BB3CC756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86F328E-812C-4DDC-BC5C-5935BB3CC756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86F328E-812C-4DDC-BC5C-5935BB3CC756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86F328E-812C-4DDC-BC5C-5935BB3CC756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D7BE6D-D489-4B5B-AEDF-F2D1E8E2980B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D7BE6D-D489-4B5B-AEDF-F2D1E8E2980B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D7BE6D-D489-4B5B-AEDF-F2D1E8E2980B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D7BE6D-D489-4B5B-AEDF-F2D1E8E2980B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4DD6BE-2769-4D70-B406-6CB123E68972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4DD6BE-2769-4D70-B406-6CB123E68972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4DD6BE-2769-4D70-B406-6CB123E68972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4DD6BE-2769-4D70-B406-6CB123E68972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F664DD1-D58E-437F-BFDB-1022ADC1C4A5}
+	EndGlobalSection
+EndGlobal
