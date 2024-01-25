@@ -11,7 +11,7 @@ namespace DoorModelEventAggregatorPattern
         static void Main(string[] args)
         {
             // Buying Door
-            SmartDoor myDoor = new SmartDoor(10);
+            SmartDoor myDoor = new SmartDoor();
             // Subscribing Addons
             myDoor.TimerDepAddons.Add(new Buzzer());
             myDoor.TimerDepAddons.Add(new PagerNotifier());

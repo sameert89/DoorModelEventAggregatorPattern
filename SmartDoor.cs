@@ -11,7 +11,7 @@ namespace DoorModelEventAggregatorPattern
         private Timer timerObj;
         private Action<DoorStateChangeEvent> HandleDoorStateChangeEvent;
         public List<ISmartDoorTimerDepAddon> TimerDepAddons;
-        public SmartDoor(int t)
+        public SmartDoor(int t = 10)
         {
             timerObj = new Timer(t);
             TimerDepAddons = new List<ISmartDoorTimerDepAddon>();
